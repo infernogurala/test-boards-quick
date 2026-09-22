@@ -6,7 +6,7 @@ float duration, distance, liveDistance;
 // SETUP PIN MODE
 void setup()
 {
-  pinMode(triPin, OUTPUT);
+  pinMode(trigPin, OUTPUT);
   pinMode(echoPin, INPUT);
   Serial.begin(9600);
 }
