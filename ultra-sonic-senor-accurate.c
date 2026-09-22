@@ -3,7 +3,7 @@ const int TRIG_PIN = 9;
 const int ECHO_PIN = 10;
 
 // ROOM TEMP (accurate measurement)
-float ambientTemperature = 20.0; 
+float ambientTemperature = 21.5; 
 
 // PIN SETUP
 void setup() {
