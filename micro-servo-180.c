@@ -1,6 +1,7 @@
 #include <Servo.h>
 
 Servo myServo;
+int angle = 0;
 
 // PIN SETUP
 void setup()
@@ -11,16 +12,15 @@ void setup()
 // LOOP
 void loop()
 {
-  myServo.write(90);
-  delay(2000);
-
-  myServo.write(0);
-  delay(2000);
-
-  myServo.write(90);
-  delay(2000);
-
-  myServo.write(180);
-  delay(2000);
+for(angle = 0; angle <= 180; angle++)
+  {
+  myServo.write(angle);
+  delay(15);
+  }
+for(angle = 180; angle >= 0; angle--)
+  {
+  myServo.write(angle);
+  delay(15);
+  }
 
 }
