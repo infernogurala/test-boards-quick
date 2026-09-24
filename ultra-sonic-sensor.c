@@ -14,9 +14,9 @@ void setup()
 // <----CUSTOM FUNCTION---->
 float captureDistance()
 {
-  digitalWrite(trigPin, LOW):
+  digitalWrite(trigPin, LOW);
     delayMicroseconds(2);
-  digitalWrite(trigPin, HIGH):
+  digitalWrite(trigPin, HIGH);
     delayMicroseconds(10);
   digitalWrite(trigPin, LOW);
     
